@@ -7,13 +7,13 @@ import { getAnalytics } from "firebase/analytics";
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: "AIzaSyDGwny_UK3E_kDlM6S80wcyQzGgPGZX9WY",
-  authDomain: "e-learn-sign.firebaseapp.com",
-  projectId: "e-learn-sign",
-  storageBucket: "e-learn-sign.appspot.com",
-  messagingSenderId: "843941050448",
-  appId: "1:843941050448:web:1658c87c4b902cb2263955",
-  measurementId: "G-RTPJBW0CG7"
+  apiKey: "AIzaSyAEcZu7X71ZZIni3gi04QyvYRn5wZ4Z2nY",
+  authDomain: "sign-a218f.firebaseapp.com",
+  projectId: "sign-a218f",
+  storageBucket: "sign-a218f.appspot.com",
+  messagingSenderId: "965565370255",
+  appId: "1:965565370255:web:fe52f86dad95f296d005fa",
+  measurementId: "G-J5L846WWK8"
 };
 
 // Initialize Firebase
@@ -61,6 +61,7 @@ const analytics = getAnalytics(app);
              }
      
              function RegisterUser () {
+                console.log("fidashiu")
                  if(!Validation()){
                      return;
                  };
